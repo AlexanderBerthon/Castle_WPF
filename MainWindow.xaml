@@ -5,8 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Castle"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+        Title="MainWindow" Height="500" Width="500">
+    <Grid x:Name="Grid" ShowGridLines="True">
+        <Grid.RowDefinitions>
+            <RowDefinition MinHeight="10" Height="10*"/>
+            <RowDefinition Height="10*" MinHeight="10"/>
+            <RowDefinition Height="10*" MinHeight="10"/>
+            <RowDefinition Height="10*" MinHeight="10"/>
+            <RowDefinition Height="10*" MinHeight="10"/>
+            <RowDefinition Height="10*" MinHeight="10"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10*" MinWidth="10"/>
+            <ColumnDefinition MinWidth="10" Width="10*"/>
+            <ColumnDefinition MinWidth="10" Width="10*"/>
+            <ColumnDefinition MinWidth="10" Width="10*"/>
+            <ColumnDefinition MinWidth="10" Width="10*"/>
+            <ColumnDefinition MinWidth="10" Width="10*"/>
+        </Grid.ColumnDefinitions>
     </Grid>
 </Window>
