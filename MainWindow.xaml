@@ -23,5 +23,21 @@
             <ColumnDefinition MinWidth="10" Width="10*"/>
             <ColumnDefinition MinWidth="10" Width="10*"/>
         </Grid.ColumnDefinitions>
+        <Rectangle x:Name="P1_Card1" Grid.Column="1" HorizontalAlignment="Center" Height="50" Grid.Row="5" Stroke="Black" VerticalAlignment="Center" Width="30"/>
+        <Rectangle x:Name="P1_Card2" Grid.Column="2" HorizontalAlignment="Center" Height="50" Grid.Row="5" Stroke="Black" VerticalAlignment="Center" Width="30"/>
+        <Rectangle x:Name="P1_Card3" Grid.Column="3" HorizontalAlignment="Center" Height="50" Grid.Row="5" Stroke="Black" VerticalAlignment="Center" Width="30"/>
+        <Rectangle x:Name="P1_Card4" Grid.Column="4" HorizontalAlignment="Center" Height="50" Grid.Row="5" Stroke="Black" VerticalAlignment="Center" Width="30" RenderTransformOrigin="-1.683,0.517"/>
+        <Rectangle x:Name="P2_Card1" Grid.Column="1" HorizontalAlignment="Center" Height="50" Stroke="Black" VerticalAlignment="Center" Width="30"/>
+        <Rectangle x:Name="P2_Card2" Grid.Column="2" HorizontalAlignment="Center" Height="50" Stroke="Black" VerticalAlignment="Center" Width="30"/>
+        <Rectangle x:Name="P2_Card3" Grid.Column="3" HorizontalAlignment="Center" Height="50" Stroke="Black" VerticalAlignment="Center" Width="30"/>
+        <Rectangle x:Name="P2_Card4" Grid.Column="4" HorizontalAlignment="Center" Height="50" Stroke="Black" VerticalAlignment="Center" Width="30"/>
+        <Rectangle x:Name="P3_Card1" HorizontalAlignment="Center" Height="30" Grid.Row="1" Stroke="Black" VerticalAlignment="Center" Width="50"/>
+        <Rectangle x:Name="P3_Card2" HorizontalAlignment="Center" Height="30" Grid.Row="2" Stroke="Black" VerticalAlignment="Center" Width="50"/>
+        <Rectangle x:Name="P3_Card3" HorizontalAlignment="Center" Height="30" Grid.Row="3" Stroke="Black" VerticalAlignment="Center" Width="50"/>
+        <Rectangle x:Name="P3_Card4" HorizontalAlignment="Center" Height="30" Grid.Row="4" Stroke="Black" VerticalAlignment="Center" Width="50"/>
+        <Rectangle x:Name="P4_Card1" HorizontalAlignment="Center" Height="30" Grid.Row="1" Stroke="Black" VerticalAlignment="Center" Width="50" Grid.Column="5"/>
+        <Rectangle x:Name="P4_Card2" HorizontalAlignment="Center" Height="30" Grid.Row="2" Stroke="Black" VerticalAlignment="Center" Width="50" Grid.Column="5"/>
+        <Rectangle x:Name="P4_Card3" HorizontalAlignment="Center" Height="30" Grid.Row="3" Stroke="Black" VerticalAlignment="Center" Width="50" Grid.Column="5"/>
+        <Rectangle x:Name="P4_Card4" HorizontalAlignment="Center" Height="30" Grid.Row="4" Stroke="Black" VerticalAlignment="Center" Width="50" Grid.Column="5"/>
     </Grid>
 </Window>
